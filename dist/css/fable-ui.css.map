@@ -1,0 +1,1 @@
+{"version":3,"file":"css/fable-ui.css","mappings":"AAAA,KACE,SACA,SCCF,C","sources":["webpack://@borgenfalkskott/fable-ui/./src/sass/_reset.scss","webpack://@borgenfalkskott/fable-ui/./src/sass/style.scss"],"sourcesContent":["body {\n  margin: 0;\n  padding: 0;\n}\n","body {\n  margin: 0;\n  padding: 0;\n}"],"names":[],"sourceRoot":""}
