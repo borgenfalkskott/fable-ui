@@ -21,5 +21,8 @@
   "bugs": {
     "url": "https://github.com/borgenfalkskott/fable-ui/issues"
   },
-  "homepage": "https://github.com/borgenfalkskott/fable-ui#readme"
+  "homepage": "https://github.com/borgenfalkskott/fable-ui#readme",
+  "devDependencies": {
+    "laravel-mix": "^6.0.49"
+  }
 }
