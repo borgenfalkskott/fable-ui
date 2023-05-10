@@ -1,3 +1,82 @@
-body{margin:0;padding:0}
+/*
+ * Fable UI
+ */
+/*
+ * Variables - Default values 
+ * Assign your own values by creating a _config.scss and import it before Fable UI
+ */
+* {
+  box-sizing: border-box;
+}
 
-/*# sourceMappingURL=fable-ui.css.map*/
+html,
+body {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  width: 100vw;
+  overflow-x: hidden;
+}
+
+img {
+  border: 0;
+  max-width: 100%;
+  height: auto;
+}
+
+iframe {
+  width: 100%;
+  height: auto;
+}
+
+.button,
+button,
+.btn,
+button[type=submit],
+input[type=submit] {
+  margin: 0;
+  border: 0;
+  border-radius: 2px;
+  padding: 10px 20px;
+  display: inline-block;
+  font-size: inherit;
+  color: white;
+  background-color: #222;
+  text-decoration: none;
+  -webkit-appearance: none;
+     -moz-appearance: none;
+          appearance: none;
+  cursor: pointer;
+}
+@media (hover: hover) {
+  .button:hover,
+  button:hover,
+  .btn:hover,
+  button[type=submit]:hover,
+  input[type=submit]:hover {
+    opacity: 0.9;
+  }
+}
+.button[disabled],
+button[disabled],
+.btn[disabled],
+button[type=submit][disabled],
+input[type=submit][disabled] {
+  opacity: 0.5;
+  pointer-events: none;
+}
+
+.flex {
+  display: flex;
+}
+.flex--wrap {
+  flex-wrap: wrap;
+}
+
+body {
+  font-size: 100%;
+  line-height: 1.25;
+  color: #222;
+}
