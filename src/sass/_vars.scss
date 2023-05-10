@@ -1,1 +1,12 @@
-$fable-gutter: 30px !default;
+/*
+ * Variables - Default values 
+ * Assign your own values by creating a _config.scss and import it before Fable UI
+ */
+$fable-gap: 30px !default;
+
+$fable-btn-border-radius: 2px !default;
+$fable-btn-padding: 10px 20px !default;
+$fable-btn-color: white !default;
+$fable-btn-background-color: #222 !default;
+
+$fable-text-color: #222 !default;
