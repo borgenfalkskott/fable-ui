@@ -1,0 +1,28 @@
+.button,
+button,
+.btn,
+button[type="submit"],
+input[type="submit"] {
+  margin: 0;
+  border: 0;
+  border-radius: $fable-btn-border-radius;
+  padding: $fable-btn-padding;
+  display: inline-block;
+  font-size: inherit;
+  color: $fable-btn-color;
+  background-color: $fable-btn-background-color;
+  text-decoration: none;
+  appearance: none;
+  cursor: pointer;
+
+  @media (hover: hover) {
+    &:hover {
+      opacity: 0.9;
+    }
+  }
+
+  &[disabled] {
+    opacity: 0.5;
+    pointer-events: none;
+  }
+}
