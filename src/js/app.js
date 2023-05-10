@@ -2,11 +2,13 @@ import Card from "./Card";
 
 const FableUI = {
   init: () => {
-    window.addEventListener("DOMContentLoaded", (event) => {
-      console.log("fable ui");
-      Card.init();
-    });
+    console.log("fable ui");
+    Card.init();
   },
 };
 
-FableUI.init();
+if (document.readyState === "loading") {
+  document.addEventListener("DOMContentLoaded", FableUI.init);
+} else {
+  FableUI.init();
+}
