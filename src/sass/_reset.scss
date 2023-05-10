@@ -1,4 +1,25 @@
+* {
+  box-sizing: border-box;
+}
+
+html,
 body {
   margin: 0;
   padding: 0;
+}
+
+body {
+  width: 100vw;
+  overflow-x: hidden;
+}
+
+img {
+  border: 0;
+  max-width: 100%;
+  height: auto;
+}
+
+iframe {
+  width: 100%;
+  height: auto;
 }
