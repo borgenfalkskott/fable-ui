@@ -8,7 +8,9 @@ input[type="submit"] {
   border-radius: $fable-btn-border-radius;
   padding: $fable-btn-padding;
   display: inline-block;
+  font-family: inherit;
   font-size: inherit;
+  line-height: inherit;
   color: $fable-btn-color;
   background-color: $fable-btn-background-color;
   text-decoration: none;
