@@ -6,9 +6,8 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "npm i && npm run build",
-    "build": "npx mix",
-    "dev": "npx mix watch",
-    "prod": "npx mix --production"
+    "build": "npx mix --production",
+    "dev": "npx mix watch"
   },
   "repository": {
     "type": "git",
