@@ -1,6 +1,6 @@
 {
   "name": "@borgenfalkskott/fable-ui",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Fable UI",
   "main": "index.js",
   "scripts": {
