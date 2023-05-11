@@ -20,23 +20,23 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpac
 
 /***/ }),
 
-/***/ "./src/js/app.js":
-/*!***********************!*\
-  !*** ./src/js/app.js ***!
-  \***********************/
+/***/ "./src/js/fable-ui.js":
+/*!****************************!*\
+  !*** ./src/js/fable-ui.js ***!
+  \****************************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _Card__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./Card */ \"./src/js/Card.js\");\n\nvar FableUI = {\n  init: function init() {\n    console.log(\"fable ui\");\n    _Card__WEBPACK_IMPORTED_MODULE_0__[\"default\"].init();\n  }\n};\nif (document.readyState === \"loading\") {\n  document.addEventListener(\"DOMContentLoaded\", FableUI.init);\n} else {\n  FableUI.init();\n}//# sourceURL=[module]\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiLi9zcmMvanMvYXBwLmpzLmpzIiwibWFwcGluZ3MiOiI7O0FBQTBCO0FBRTFCLElBQU1DLE9BQU8sR0FBRztFQUNkQyxJQUFJLEVBQUUsU0FBQUEsS0FBQSxFQUFNO0lBQ1ZDLE9BQU8sQ0FBQ0MsR0FBRyxDQUFDLFVBQVUsQ0FBQztJQUN2Qkosa0RBQVMsRUFBRTtFQUNiO0FBQ0YsQ0FBQztBQUVELElBQUlLLFFBQVEsQ0FBQ0MsVUFBVSxLQUFLLFNBQVMsRUFBRTtFQUNyQ0QsUUFBUSxDQUFDRSxnQkFBZ0IsQ0FBQyxrQkFBa0IsRUFBRU4sT0FBTyxDQUFDQyxJQUFJLENBQUM7QUFDN0QsQ0FBQyxNQUFNO0VBQ0xELE9BQU8sQ0FBQ0MsSUFBSSxFQUFFO0FBQ2hCIiwic291cmNlcyI6WyJ3ZWJwYWNrOi8vQGJvcmdlbmZhbGtza290dC9mYWJsZS11aS8uL3NyYy9qcy9hcHAuanM/Y2QxOCJdLCJzb3VyY2VzQ29udGVudCI6WyJpbXBvcnQgQ2FyZCBmcm9tIFwiLi9DYXJkXCI7XG5cbmNvbnN0IEZhYmxlVUkgPSB7XG4gIGluaXQ6ICgpID0+IHtcbiAgICBjb25zb2xlLmxvZyhcImZhYmxlIHVpXCIpO1xuICAgIENhcmQuaW5pdCgpO1xuICB9LFxufTtcblxuaWYgKGRvY3VtZW50LnJlYWR5U3RhdGUgPT09IFwibG9hZGluZ1wiKSB7XG4gIGRvY3VtZW50LmFkZEV2ZW50TGlzdGVuZXIoXCJET01Db250ZW50TG9hZGVkXCIsIEZhYmxlVUkuaW5pdCk7XG59IGVsc2Uge1xuICBGYWJsZVVJLmluaXQoKTtcbn1cbiJdLCJuYW1lcyI6WyJDYXJkIiwiRmFibGVVSSIsImluaXQiLCJjb25zb2xlIiwibG9nIiwiZG9jdW1lbnQiLCJyZWFkeVN0YXRlIiwiYWRkRXZlbnRMaXN0ZW5lciJdLCJzb3VyY2VSb290IjoiIn0=\n//# sourceURL=webpack-internal:///./src/js/app.js\n");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _Card__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./Card */ \"./src/js/Card.js\");\n\nvar FableUI = {\n  init: function init() {\n    console.log(\"fable ui\");\n    _Card__WEBPACK_IMPORTED_MODULE_0__[\"default\"].init();\n  }\n};\nif (document.readyState === \"loading\") {\n  document.addEventListener(\"DOMContentLoaded\", FableUI.init);\n} else {\n  FableUI.init();\n}//# sourceURL=[module]\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiLi9zcmMvanMvZmFibGUtdWkuanMuanMiLCJtYXBwaW5ncyI6Ijs7QUFBMEI7QUFFMUIsSUFBTUMsT0FBTyxHQUFHO0VBQ2RDLElBQUksRUFBRSxTQUFBQSxLQUFBLEVBQU07SUFDVkMsT0FBTyxDQUFDQyxHQUFHLENBQUMsVUFBVSxDQUFDO0lBQ3ZCSixrREFBUyxFQUFFO0VBQ2I7QUFDRixDQUFDO0FBRUQsSUFBSUssUUFBUSxDQUFDQyxVQUFVLEtBQUssU0FBUyxFQUFFO0VBQ3JDRCxRQUFRLENBQUNFLGdCQUFnQixDQUFDLGtCQUFrQixFQUFFTixPQUFPLENBQUNDLElBQUksQ0FBQztBQUM3RCxDQUFDLE1BQU07RUFDTEQsT0FBTyxDQUFDQyxJQUFJLEVBQUU7QUFDaEIiLCJzb3VyY2VzIjpbIndlYnBhY2s6Ly9AYm9yZ2VuZmFsa3Nrb3R0L2ZhYmxlLXVpLy4vc3JjL2pzL2ZhYmxlLXVpLmpzP2FhYjkiXSwic291cmNlc0NvbnRlbnQiOlsiaW1wb3J0IENhcmQgZnJvbSBcIi4vQ2FyZFwiO1xuXG5jb25zdCBGYWJsZVVJID0ge1xuICBpbml0OiAoKSA9PiB7XG4gICAgY29uc29sZS5sb2coXCJmYWJsZSB1aVwiKTtcbiAgICBDYXJkLmluaXQoKTtcbiAgfSxcbn07XG5cbmlmIChkb2N1bWVudC5yZWFkeVN0YXRlID09PSBcImxvYWRpbmdcIikge1xuICBkb2N1bWVudC5hZGRFdmVudExpc3RlbmVyKFwiRE9NQ29udGVudExvYWRlZFwiLCBGYWJsZVVJLmluaXQpO1xufSBlbHNlIHtcbiAgRmFibGVVSS5pbml0KCk7XG59XG4iXSwibmFtZXMiOlsiQ2FyZCIsIkZhYmxlVUkiLCJpbml0IiwiY29uc29sZSIsImxvZyIsImRvY3VtZW50IiwicmVhZHlTdGF0ZSIsImFkZEV2ZW50TGlzdGVuZXIiXSwic291cmNlUm9vdCI6IiJ9\n//# sourceURL=webpack-internal:///./src/js/fable-ui.js\n");
 
 /***/ }),
 
-/***/ "./src/sass/style.scss":
-/*!*****************************!*\
-  !*** ./src/sass/style.scss ***!
-  \*****************************/
+/***/ "./src/sass/fable-ui.scss":
+/*!********************************!*\
+  !*** ./src/sass/fable-ui.scss ***!
+  \********************************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
-eval("__webpack_require__.r(__webpack_exports__);\n// extracted by mini-css-extract-plugin\n//# sourceURL=[module]\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiLi9zcmMvc2Fzcy9zdHlsZS5zY3NzLmpzIiwibWFwcGluZ3MiOiI7QUFBQSIsInNvdXJjZXMiOlsid2VicGFjazovL0Bib3JnZW5mYWxrc2tvdHQvZmFibGUtdWkvLi9zcmMvc2Fzcy9zdHlsZS5zY3NzPzUxZTYiXSwic291cmNlc0NvbnRlbnQiOlsiLy8gZXh0cmFjdGVkIGJ5IG1pbmktY3NzLWV4dHJhY3QtcGx1Z2luXG5leHBvcnQge307Il0sIm5hbWVzIjpbXSwic291cmNlUm9vdCI6IiJ9\n//# sourceURL=webpack-internal:///./src/sass/style.scss\n");
+eval("__webpack_require__.r(__webpack_exports__);\n// extracted by mini-css-extract-plugin\n//# sourceURL=[module]\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiLi9zcmMvc2Fzcy9mYWJsZS11aS5zY3NzLmpzIiwibWFwcGluZ3MiOiI7QUFBQSIsInNvdXJjZXMiOlsid2VicGFjazovL0Bib3JnZW5mYWxrc2tvdHQvZmFibGUtdWkvLi9zcmMvc2Fzcy9mYWJsZS11aS5zY3NzP2YxM2UiXSwic291cmNlc0NvbnRlbnQiOlsiLy8gZXh0cmFjdGVkIGJ5IG1pbmktY3NzLWV4dHJhY3QtcGx1Z2luXG5leHBvcnQge307Il0sIm5hbWVzIjpbXSwic291cmNlUm9vdCI6IiJ9\n//# sourceURL=webpack-internal:///./src/sass/fable-ui.scss\n");
 
 /***/ })
 
@@ -189,8 +189,8 @@ eval("__webpack_require__.r(__webpack_exports__);\n// extracted by mini-css-extr
 /******/ 	// startup
 /******/ 	// Load entry module and return exports
 /******/ 	// This entry module depends on other loaded chunks and execution need to be delayed
-/******/ 	__webpack_require__.O(undefined, ["css/fable-ui"], () => (__webpack_require__("./src/js/app.js")))
-/******/ 	var __webpack_exports__ = __webpack_require__.O(undefined, ["css/fable-ui"], () => (__webpack_require__("./src/sass/style.scss")))
+/******/ 	__webpack_require__.O(undefined, ["css/fable-ui"], () => (__webpack_require__("./src/js/fable-ui.js")))
+/******/ 	var __webpack_exports__ = __webpack_require__.O(undefined, ["css/fable-ui"], () => (__webpack_require__("./src/sass/fable-ui.scss")))
 /******/ 	__webpack_exports__ = __webpack_require__.O(__webpack_exports__);
 /******/ 	
 /******/ })()
