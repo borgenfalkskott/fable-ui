@@ -1,0 +1,13 @@
+/*
+ * Helpers
+ */
+
+.overflow {
+  &--x-hidden {
+    overflow-x: hidden;
+  }
+
+  &--x-scroll {
+    overflow-x: scroll;
+  }
+}
