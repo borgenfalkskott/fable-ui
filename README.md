@@ -56,3 +56,24 @@ body {
   background-color: hotpink;
 }
 ```
+
+## JavaScript
+
+Import Fable UI in your JS.  
+The JS components are WIP.
+
+```javascript
+// app.js
+import FableUI from "@borgenfalkskott/fable-ui";
+
+const app = {
+  init: () => {
+    console.log("Hello world!");
+
+    // init Fable UI
+    FableUI.init();
+  },
+};
+
+app.init();
+```
