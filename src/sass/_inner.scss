@@ -1,0 +1,26 @@
+/*
+ * Inner
+ */
+
+.inner {
+  position: relative;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: $xl;
+
+  &--large {
+    max-width: $large;
+  }
+
+  &--medium {
+    max-width: $medium;
+  }
+
+  &--small {
+    max-width: $small;
+  }
+
+  &--xsmall {
+    max-width: $xsmall;
+  }
+}
