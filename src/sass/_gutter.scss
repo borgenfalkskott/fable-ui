@@ -1,0 +1,22 @@
+/*
+ * Gutter
+ */
+.gutter {
+  padding-left: $fable-gutter;
+  padding-right: $fable-gutter;
+
+  @media (max-width: $medium) {
+    padding-left: calc($fable-gutter / 2);
+    padding-right: calc($fable-gutter / 2);
+  }
+
+  &--2x {
+    padding-left: calc($fable-gutter * 2);
+    padding-right: calc($fable-gutter * 2);
+
+    @media (max-width: $medium) {
+      padding-left: calc($fable-gutter / 2);
+      padding-right: calc($fable-gutter / 2);
+    }
+  }
+}
