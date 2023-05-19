@@ -8,11 +8,13 @@
 @import "functions";
 
 @import "a11y";
+@import "typography";
 
-@import "button";
-
+// Layout
+@import "inner";
+@import "gutter";
 @import "flex";
 
-@import "typography";
+@import "button";
 
 @import "helpers";
