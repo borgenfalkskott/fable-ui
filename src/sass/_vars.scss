@@ -22,4 +22,11 @@ $fable-btn-color: white !default;
 $fable-btn-background-color: #222 !default;
 
 // Typography
-$fable-line-clamp-size: 2;
+$fable-line-clamp: 2;
+
+// Media breakpoints
+$xl: 1340px !default;
+$large: 992px !default;
+$medium: 750px !default;
+$small: 576px !default;
+$xsmall: 480px !default;

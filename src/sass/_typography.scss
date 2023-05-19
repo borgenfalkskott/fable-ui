@@ -8,11 +8,11 @@ body {
 // trim text to a specific number of rows
 .line-clamp {
   display: -webkit-box;
-  -webkit-line-clamp: $fable-line-clamp-size;
+  -webkit-line-clamp: $fable-line-clamp;
   -webkit-box-orient: vertical;
   overflow: hidden;
 
   &--2x {
-    -webkit-line-clamp: calc($fable-line-clamp-size * 2);
+    -webkit-line-clamp: calc($fable-line-clamp * 2);
   }
 }
