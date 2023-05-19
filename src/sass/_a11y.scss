@@ -1,0 +1,46 @@
+/*
+ * A11y
+ */
+
+.a11y {
+  // screen readers only text labels
+  &--sr-only {
+    position: absolute;
+    border: 0;
+    width: 1px;
+    height: 1px;
+    padding: 0;
+    overflow: hidden;
+    white-space: nowrap;
+    clip: rect(0, 0, 0, 0);
+  }
+
+  // skip to content
+  &--skip-link {
+    position: absolute;
+    left: -100%;
+    z-index: -999;
+    width: 1px;
+    height: 1px;
+    overflow: hidden;
+
+    &:focus,
+    &:active {
+      left: 50%;
+      z-index: 999;
+      margin: $gutter auto;
+      outline: 0;
+      border: 1px solid black;
+      border-radius: 0;
+      width: 25%;
+      height: auto;
+      padding: 15px;
+      font-size: 1em;
+      color: black;
+      text-align: center;
+      background-color: white;
+      overflow: auto;
+      transform: translateX(-50%);
+    }
+  }
+}
