@@ -1,0 +1,17 @@
+/*
+ * Flex - Gap
+ */
+
+.flex {
+  &--gap {
+    gap: $fable-flex-gap;
+  }
+
+  &--row-gap {
+    row-gap: $fable-flex-row-gap;
+  }
+
+  &--column-gap {
+    column-gap: $fable-flex-column-gap;
+  }
+}
