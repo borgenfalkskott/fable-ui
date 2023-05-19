@@ -1,3 +1,7 @@
+/*
+ * Flex
+ */
+
 .flex {
   display: flex;
 
@@ -53,7 +57,7 @@
     column-gap: $fable-flex-column-gap;
   }
 
-  &__item {
+  &__child {
     flex: 1;
   }
 }
