@@ -14,6 +14,8 @@
           <div class="flex flex--justify-content-space-between">
             <div>Logo</div>
 
+            <a href="#main-content" class="a11y--skip-link">Skip to content!</a>
+
             <div>
               <nav>
                 <ul>
@@ -31,38 +33,41 @@
         </div>
       </header>
 
-      <h1>Fable UI</h1>
+      <main id="main-content">
+        <h1>Fable UI</h1>
 
-      <p>Just another ui framework.</p>
+        <p>Just another ui framework.</p>
 
-      <section id="typography">
-        <h2>Typography</h2>
+        <section id="typography">
+          <h2>Typography</h2>
 
-        <h3>Line clamp</h3>
-        <p>Trim text to a specific number of rows.</p>
+          <h3>Line clamp</h3>
+          <p>Trim text to a specific number of rows.</p>
 
-        <p class="line-clamp">
-          This text is only allowed to span over two rows/lines. Vivamus
-          sagittis lacus vel augue laoreet rutrum faucibus dolor auctor.
-          Praesent commodo cursus magna, vel scelerisque nisl consectetur et.
-          Sed posuere consectetur est at lobortis. Lorem ipsum dolor sit amet,
-          consectetur adipiscing elit. Sed posuere consectetur est at lobortis.
-        </p>
-      </section>
+          <p class="line-clamp">
+            This text is only allowed to span over two rows/lines. Vivamus
+            sagittis lacus vel augue laoreet rutrum faucibus dolor auctor.
+            Praesent commodo cursus magna, vel scelerisque nisl consectetur et.
+            Sed posuere consectetur est at lobortis. Lorem ipsum dolor sit amet,
+            consectetur adipiscing elit. Sed posuere consectetur est at
+            lobortis.
+          </p>
+        </section>
 
-      <section id="buttons">
-        <h2>Buttons</h2>
-        <p>Buttons are made for pushing.</p>
+        <section id="buttons">
+          <h2>Buttons</h2>
+          <p>Buttons are made for pushing.</p>
 
-        <div class="flex flex--gap flex--wrap">
-          <a href="#" class="btn">Btn</a>
-          <a href="#" class="button">Button</a>
-          <button>Button</button>
-          <button type="submit">Submit</button>
-          <input type="submit" value="Submit" />
-          <input type="submit" value="Submit" disabled />
-        </div>
-      </section>
+          <div class="flex flex--gap flex--wrap">
+            <a href="#" class="btn">Btn</a>
+            <a href="#" class="button">Button</a>
+            <button>Button</button>
+            <button type="submit">Submit</button>
+            <input type="submit" value="Submit" />
+            <input type="submit" value="Submit" disabled />
+          </div>
+        </section>
+      </main>
     </div>
   </body>
 </html>
