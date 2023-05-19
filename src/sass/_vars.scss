@@ -8,7 +8,12 @@ $fable-body-color: #222 !default;
 $fable-body-background-color: white !default;
 
 // Margins, paddings and gaps
+$fable-gutter: 30px !default;
+
+// Flex
 $fable-flex-gap: 30px !default;
+$fable-flex-row-gap: 30px !default;
+$fable-flex-column-gap: 30px !default;
 
 // Buttons
 $fable-btn-border-radius: 2px !default;
