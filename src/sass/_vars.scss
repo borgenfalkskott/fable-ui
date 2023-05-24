@@ -4,10 +4,11 @@
  */
 
 // Colors
-$body-color: #222 !default;
-$body-background-color: white !default;
+$border-color: #222 !default;
+$text-color: #222 !default;
+$background-color: white !default;
 
-// Margins, paddings and gaps
+// Layout
 $gutter: 30px !default;
 
 // Flex
@@ -15,7 +16,14 @@ $flex-gap: 30px !default;
 $flex-row-gap: 30px !default;
 $flex-column-gap: 30px !default;
 
-// Buttons
+// Input
+$input-border: 1px solid #222 !default;
+$input-border-radius: 2px !default;
+$input-padding: 15px !default;
+$input-color: #222 !default;
+$input-background-color: white !default;
+
+// Button
 $button-border-radius: 2px !default;
 $button-padding: 10px 20px !default;
 $button-color: white !default;
@@ -25,8 +33,8 @@ $button-background-color: #222 !default;
 $line-clamp: 2;
 
 // Media breakpoints
-$xlarge: 1340px !default;
-$large: 992px !default;
-$medium: 750px !default;
-$small: 576px !default;
+$xlarge: 1440px !default;
+$large: 1024px !default;
+$medium: 768px !default;
+$small: 580px !default;
 $xsmall: 480px !default;
