@@ -202,12 +202,22 @@ body {
 .flex--gap {
   gap: 30px;
 }
+.flex--gap-2x {
+  gap: 60px;
+}
 .flex--row-gap {
   row-gap: 30px;
+}
+.flex--row-gap-2x {
+  row-gap: 60px;
 }
 .flex--col-gap, .flex--column-gap {
   -moz-column-gap: 30px;
        column-gap: 30px;
+}
+.flex--col-gap-2x, .flex--column-gap-2x {
+  -moz-column-gap: 60px;
+       column-gap: 60px;
 }
 
 /*

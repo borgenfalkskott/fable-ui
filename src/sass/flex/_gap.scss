@@ -5,14 +5,26 @@
 .flex {
   &--gap {
     gap: $flex-gap;
+
+    &-2x {
+      gap: calc($flex-gap * 2);
+    }
   }
 
   &--row-gap {
     row-gap: $flex-row-gap;
+
+    &-2x {
+      row-gap: calc($flex-row-gap * 2);
+    }
   }
 
   &--col-gap,
   &--column-gap {
     column-gap: $flex-column-gap;
+
+    &-2x {
+      column-gap: calc($flex-column-gap * 2);
+    }
   }
 }
