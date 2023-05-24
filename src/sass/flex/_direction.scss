@@ -1,0 +1,25 @@
+/*
+ * Flex - Direction
+ */
+
+.flex {
+  &--dir-row,
+  &--direction-row {
+    flex-direction: row;
+  }
+
+  &--dir-row-rev,
+  &--direction-row-reverse {
+    flex-direction: row-reverse;
+  }
+
+  &--dir-col,
+  &--direction-column {
+    flex-direction: column;
+  }
+
+  &--dir-col-rev,
+  &--direction-column-reverse {
+    flex-direction: column-reverse;
+  }
+}
