@@ -3,6 +3,7 @@
  */
 
 .flex {
+  &__item,
   &__child {
     flex: 1;
   }

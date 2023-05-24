@@ -3,10 +3,12 @@
  */
 
 .flex {
+  &--align-items-start,
   &--align-items-flex-start {
     align-items: flex-start;
   }
 
+  &--align-items-end,
   &--align-items-flex-end {
     align-items: flex-end;
   }

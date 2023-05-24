@@ -11,6 +11,7 @@
     row-gap: $flex-row-gap;
   }
 
+  &--col-gap,
   &--column-gap {
     column-gap: $flex-column-gap;
   }
