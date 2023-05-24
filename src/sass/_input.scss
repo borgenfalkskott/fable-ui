@@ -5,8 +5,11 @@
 input[type="text"],
 input[type="email"],
 input[type="search"] {
+  margin: 0;
   border: $input-border;
   border-radius: $input-border-radius;
+  max-width: 100%;
+  padding: $input-padding;
   font-family: inherit;
   font-size: inherit;
   line-height: inherit;
