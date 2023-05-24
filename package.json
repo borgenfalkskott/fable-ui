@@ -1,6 +1,6 @@
 {
   "name": "@borgenfalkskott/fable-ui",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "Fable UI - Just another ui framework.",
   "main": "src/js/fable-ui.js",
   "sass": "src/sass/fable-ui.scss",
