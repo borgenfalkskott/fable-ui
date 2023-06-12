@@ -30,15 +30,15 @@
       z-index: 999;
       margin: $gutter auto;
       outline: 0;
-      border: 1px solid black;
+      border: 1px solid $color-black;
       border-radius: 0;
       width: 25%;
       height: auto;
       padding: 15px;
       font-size: 1em;
-      color: black;
+      color: $color-black;
       text-align: center;
-      background-color: white;
+      background-color: $color-white;
       overflow: auto;
       transform: translateX(-50%);
     }

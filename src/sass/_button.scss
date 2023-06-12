@@ -8,7 +8,7 @@ button,
 button[type="submit"],
 input[type="submit"] {
   margin: 0;
-  border: 0;
+  border: $button-border;
   border-radius: $button-border-radius;
   padding: $button-padding;
   display: inline-block;

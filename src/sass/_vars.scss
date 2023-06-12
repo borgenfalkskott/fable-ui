@@ -4,9 +4,15 @@
  */
 
 // Colors
-$border-color: #222 !default;
-$text-color: #222 !default;
-$background-color: white !default;
+$color-white: #fff !default;
+$color-black: #222 !default;
+
+$color-light: $color-white;
+$color-dark: $color-black;
+
+$border-color: $color-black !default;
+$text-color: $color-black !default;
+$background-color: $color-white !default;
 
 // Layout
 $gutter: 30px !default;
@@ -17,17 +23,18 @@ $flex-row-gap: 30px !default;
 $flex-column-gap: 30px !default;
 
 // Input
-$input-border: 1px solid #222 !default;
+$input-border: 1px solid $color-black !default;
 $input-border-radius: 2px !default;
 $input-padding: 15px !default;
-$input-color: #222 !default;
-$input-background-color: white !default;
+$input-color: $color-black !default;
+$input-background-color: $color-white !default;
 
 // Button
+$button-border: 1px solid $color-black !default;
 $button-border-radius: 2px !default;
 $button-padding: 10px 20px !default;
-$button-color: white !default;
-$button-background-color: #222 !default;
+$button-color: $color-white !default;
+$button-background-color: $color-black !default;
 
 // Typography
 $line-clamp: 2;
